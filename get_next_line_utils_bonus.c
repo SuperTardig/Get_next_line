@@ -6,11 +6,11 @@
 /*   By: bperron <bperron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/14 09:24:21 by bperron           #+#    #+#             */
-/*   Updated: 2022/05/05 11:03:18 by bperron          ###   ########.fr       */
+/*   Updated: 2022/05/12 13:32:31 by bperron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 void	ft_bzero(void *ptr, size_t n)
 {
