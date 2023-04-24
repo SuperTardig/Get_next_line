@@ -6,7 +6,7 @@ The bonus part of this project had the following requirement:
   - Multiple file descriptor can be used at the same without having mixed output or losing part of the old line. This was handled by changing my static variable from a char* to char*[OPEN_MAX], which represent the maximum amount of file descriptor that can be open at the same on the machine
   # Usage
   To use this function, you need to:
-    1. Clone this repository into your project
-    2. include `"get_next_line.h"` or `"get_next_line_bonus.h"` in your project
-    3. Either define `BUFFER_SIZE <value>` in your header or include `-D BUFFER_SIZE=<value>` in your compilation line
-    4. Compile your code and add `"get_next_line.c"` or `"get_next_line_bonus.c"` and `"get_next_line_utils.c"` or `"get_next_line_utils_bonus.c"`
+  1. Clone this repository into your project
+  2. include `"get_next_line.h"` or `"get_next_line_bonus.h"` in your project
+  3. Either define `BUFFER_SIZE <value>` in your header or include `-D BUFFER_SIZE=<value>` in your compilation line
+  4. Compile your code and add `"get_next_line.c"` or `"get_next_line_bonus.c"` and `"get_next_line_utils.c"` or `"get_next_line_utils_bonus.c"`
